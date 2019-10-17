@@ -1,6 +1,7 @@
 Application/Runtime/
 server/Application/Runtime/
-
+install/install.lock
+Sqlite/showdoc.db.php
 web_src/.DS_Store
 web_src/node_modules/
 web_src/dist/
