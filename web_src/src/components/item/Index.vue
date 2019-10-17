@@ -10,7 +10,7 @@
               <h2 class="muted"><img src="static/logo/b_64.png" style="width:50px;height:50px;margin-bottom:-10px;" alt="">ShowDoc</h2>
           </div>
           <div class="header-btn-group pull-right">
-            <el-button type="text"  @click="feedback">{{$t("feedback")}}</el-button>
+            
             <router-link to="/team/index" >&nbsp;&nbsp;&nbsp;{{$t('team_mamage')}}</router-link>
             <router-link to="/admin/index" v-if="isAdmin">&nbsp;&nbsp;&nbsp;{{$t('background')}}</router-link>
             &nbsp;&nbsp;&nbsp;
