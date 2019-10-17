@@ -28,8 +28,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Index',
-      component: Index
+      name: 'UserLogin',
+      component: UserLogin
     },
     {
       path: '/user/login',
